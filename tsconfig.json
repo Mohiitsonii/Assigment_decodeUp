@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "target": "es2016",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true // Add this line
+  },
+  "include": [
+    "./**/*.ts" // Corrected pattern to include all .ts files in the project
+, "test.ts"  ]
+}
